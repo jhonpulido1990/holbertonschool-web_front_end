@@ -157,10 +157,6 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 .navbar-menu {
     float: right;
 }
@@ -190,6 +186,10 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
+.footer {
+    padding: var(--footer-padding);
+}
+
 ul.row {
     margin: 0;
     padding: 0;
@@ -208,12 +208,12 @@ ul.row {
     padding: 0.5rem;
 }
 
+.footer ul {
+    text-align: right;
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
-}
-
-.footer ul {
-    text-align: right;
 }
