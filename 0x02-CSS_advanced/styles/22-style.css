@@ -387,3 +387,7 @@ ul.row {
     --section-title-color: var(--color-white);
     background: var(--color-black);
 }
+
+.footer-address {
+    color: var(--text-color);
+}
