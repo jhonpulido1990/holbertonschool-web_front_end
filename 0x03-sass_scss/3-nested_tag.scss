@@ -1,0 +1,11 @@
+/* Write a Sass file that assigns */
+$margin_set: 0px;
+$padding_set: 0px;
+$pmargin_set: 10px;
+body {
+    margin: $margin_set;
+    padding: $padding_set;
+}
+body p {
+    margin: $pmargin_set;
+}
