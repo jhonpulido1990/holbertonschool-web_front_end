@@ -1,12 +1,14 @@
 /* Write a Sass file that assigns */
-$margin_body: 10px;
-$margin_div: 15px;
-body {
-    margin-left: $margin_body;
-    margin-right: $margin_body;
-}
+
+@mixin my-margin($property) {
+    margin-left: $property;
+    margin-right: $property;
+  }
+  
+  body {
+    @include my-margin(10px);
+  }
   
   div {
-    margin-left: $margin_div;
-    margin-right: $margin_div;
-}
+    @include my-margin(15px);
+  }
