@@ -2,9 +2,10 @@
 $screen_var: 320px;
 h1 {
     font-size: 20px;
-}
-@media (max-width: #{$screen_var}) {
-    h1 {
-        font-size: 14px;
+    
+    @media (max-width: #{$screen_var}) {
+        & {
+            font-size: 14px;
+        }
     }
 }
