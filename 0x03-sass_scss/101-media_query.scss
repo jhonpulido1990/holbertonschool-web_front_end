@@ -1,0 +1,10 @@
+/* Write a Sass file that assigns */
+$screen_var: 320px;
+h1 {
+    font-size: 20px;
+}
+@media (max-width: #{$screen_var}) {
+    h1 {
+        font-size: 14px;
+    }
+}
