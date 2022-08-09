@@ -784,6 +784,7 @@ ul.row {
 .tag-list li::after {
   content: ", ";
 }
+
 .tag-list li:last-child::after {
   content: "";
 }
