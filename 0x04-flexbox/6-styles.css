@@ -181,7 +181,7 @@
   }
   
   ul.row {
-    margin: 0;
+    margin: -1rem;
     padding: 0;
     list-style: none;
   }
@@ -363,7 +363,7 @@
   /* Section Latest news
       ============================= */
 
-  .section-latest-news .row{
+  .section-latest-news .row {
     flex-direction: row-reverse;
   }
 
